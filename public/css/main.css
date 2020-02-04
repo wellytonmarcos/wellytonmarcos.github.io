@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #e7e7e7;
+    color: ;
+    font-family: 'Merriweather', serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+header h1 {
+    font-size: 40px;
+}
+header h1, h2 {
+    color: #707070;
+}
+#icons {
+    font-size: 70px;
+}
+#icons a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+/* cores retirada do site https://brandcolors.net/ */
+#icons a .fa-github {
+    color: #000;
+}
+#icons a .fa-gitlab {
+    color: #fc6d26;
+}
+#icons a .fa-linkedin {
+    color: #0077b5;
+}
